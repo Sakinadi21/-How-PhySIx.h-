@@ -79,7 +79,7 @@ public class ProjectileSimulator extends JPanel implements ActionListener {
             System.out.println("Error playing sound: "+e.getMessage());
         }
     }
-    /*public static void main(String[] args){
+    public static void main(String[] args){
         String velocityInput=JOptionPane.showInputDialog("Enter initial velocity (m/s): ");
         double velocity=Double.parseDouble(velocityInput);
         String angleInput=JOptionPane.showInputDialog("Enter angle of projection (degrees): ");
@@ -90,5 +90,5 @@ public class ProjectileSimulator extends JPanel implements ActionListener {
         ProjectileSimulator simulation=new ProjectileSimulator(velocity, angle);
         frame.add(simulation);
         frame.setVisible(true);
-    }*/
+    }
 }

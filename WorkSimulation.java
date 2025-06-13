@@ -23,7 +23,7 @@ public class WorkSimulation extends JPanel implements ActionListener {
         initialY = groundLevel;
         boxY = groundLevel;
 
-        boxImage = new ImageIcon(getClass().getResource("box.jpg")).getImage();
+        boxImage = new ImageIcon(getClass().getResource("box.png")).getImage();
 
         timer = new Timer(30, this);
         timer.start();
